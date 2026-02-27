@@ -1,0 +1,79 @@
+[
+  {
+    "id": "fullName",
+    "field": "fullName",
+    "label": "Full Name",
+    "type": "STRICT",
+    "description": "Cannot be blank. Min 2 characters. No numbers."
+  },
+  {
+    "id": "email",
+    "field": "email",
+    "label": "Email",
+    "type": "STRICT",
+    "description": "Valid email format. Must be unique."
+  },
+  {
+    "id": "phone",
+    "field": "phone",
+    "label": "Phone",
+    "type": "STRICT",
+    "description": "10-digit Indian mobile number (starts with 6/7/8/9)."
+  },
+  {
+    "id": "dob",
+    "field": "dob",
+    "label": "Date of Birth",
+    "type": "SOFT",
+    "description": "Candidate must be ≥ 18 and ≤ 35 years old."
+  },
+  {
+    "id": "qualification",
+    "field": "qualification",
+    "label": "Highest Qualification",
+    "type": "STRICT",
+    "description": "Must be one of the approved degrees."
+  },
+  {
+    "id": "gradYear",
+    "field": "gradYear",
+    "label": "Graduation Year",
+    "type": "SOFT",
+    "description": "Must be between 2015 and 2025."
+  },
+  {
+    "id": "score",
+    "field": "score",
+    "label": "Percentage / CGPA",
+    "type": "SOFT",
+    "description": "Percentage ≥ 60% or CGPA ≥ 6.0."
+  },
+  {
+    "id": "testScore",
+    "field": "testScore",
+    "label": "Screening Test Score",
+    "type": "SOFT",
+    "description": "Must be ≥ 40 out of 100."
+  },
+  {
+    "id": "interviewStatus",
+    "field": "interviewStatus",
+    "label": "Interview Status",
+    "type": "STRICT",
+    "description": "Must be Cleared, Waitlisted, or Rejected."
+  },
+  {
+    "id": "aadhaar",
+    "field": "aadhaar",
+    "label": "Aadhaar Number",
+    "type": "STRICT",
+    "description": "Exactly 12 digits. No alphabets."
+  },
+  {
+    "id": "offerSent",
+    "field": "offerSent",
+    "label": "Offer Letter Sent",
+    "type": "STRICT",
+    "description": "Cannot be 'Yes' unless Interview Status is 'Cleared' or 'Waitlisted'."
+  }
+]
